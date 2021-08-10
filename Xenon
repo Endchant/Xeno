@@ -1,9 +1,9 @@
 -- g
 
-print("Processing")
+print("Loading...")
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Xenon";
-    Text = "Welcome",
+    Title = "Xenon Hub Cracked";
+    Text = "Loading...",
     Duration = 5
 }) 
 local library = {}
@@ -83,6 +83,8 @@ function library:Ripple(ui, button, x, y, tbl)
         tween.Completed:Wait()
         circle:Destroy();
     end)--]]
+
+    -- this is fresh code from a yt vid ik
 
     if x and y then
         spawn(function()
@@ -1998,11 +2000,11 @@ end
     end)
 
     Credits:Label(
-        "Owner:Enchant"
+        "Owner:NukeVsCity"
     )
 
     Credits:Label(
-        "Stolen"
+        "maybe next time dont leak the source"
     )
 
     Credits:Label(
@@ -2058,7 +2060,9 @@ end
             end
             TempData.Moves.Punch()
         end
-        
+    } --// this is needed for autofarm srry its messy
+
+
     TempData.AutofarmSettings = {
         ["Distance"] = 5,
         ["Auto Spawn Stand"] = true,
